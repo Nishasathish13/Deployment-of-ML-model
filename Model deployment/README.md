@@ -20,3 +20,21 @@ The deployment of machine learning models is the process for making models avail
 - Well, because both in the research and in the production environment, most likely we are going to receive the raw data.
 
 - So we need the steps of the pipeline that will allow us to produce the mature data with which we will be able to either train the model or once the model is trained, to obtain the predictions.
+
+<img width="839" alt="image" src="https://user-images.githubusercontent.com/75114179/193644987-71a85c15-da40-4b97-b8be-9c31add6cae0.png">
+
+- What we develop are machine learning models, we do so in the so-called research environment. This is an isolated environment without contact to live data when the data scientist has the freedom to try and research the different models and find out a solution to a certain product need.
+
+- In a common setting, we have historical data and we use this data to train a machine learning model, once we're happy with the performance of our model in the research environment, we're ready to migrate it to the production environment where it can receive input from live data and output predictions that can be used to make decisions.
+
+- We often talk about deployment of machine learning models when, in fact, we mean deployment of a machine learning pipeline.
+- So what is a machine learning pipeline?
+It is the series of steps that need to occur from the moment we received the data up to the moment we obtain a prediction.
+
+- A typical machine learning pipeline includes a big proportion of feature transformation steps.
+
+- It includes steps to train the machine learning model and steps to output a prediction.
+
+- Why do we need to do so well, because in the live environment, we're also going to receive raw data as input and we need to transform it to create the necessary features so that the model can interpret them and return the prediction.
+
+- When we deploy our pipeline to production, we need to do it in a way so that the pipelines are reproducible. It means that if both the pipeline in the research environment and the pipeline in the production environment receive the same raw data input, both pipelines should return this same protection, same data.
