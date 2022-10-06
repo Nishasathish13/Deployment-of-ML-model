@@ -38,3 +38,19 @@ It is the series of steps that need to occur from the moment we received the dat
 - Why do we need to do so well, because in the live environment, we're also going to receive raw data as input and we need to transform it to create the necessary features so that the model can interpret them and return the prediction.
 
 - When we deploy our pipeline to production, we need to do it in a way so that the pipelines are reproducible. It means that if both the pipeline in the research environment and the pipeline in the production environment receive the same raw data input, both pipelines should return this same protection, same data.
+
+#### Reproducibility
+
+Reproducibility is the ability to duplicate a Machine Learning model exactly such that given the same raw data as input, both models return the same output.
+
+#### Overview of Machine Learning Pipeline
+
+<img width="913" alt="image" src="https://user-images.githubusercontent.com/75114179/194247058-9a26f08b-4659-4e91-93f5-79096cb26459.png">
+
+### References
+*
+- 1.Building and Deploying a Reproducible Machine Learning Pipeline - article https://trainindata.medium.com/how-to-build-and-deploy-a-reproducible-machine-learning-pipeline-20119c0ab941
+- 2.Building a Reproducible Machine Learning Pipeline - long article https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf
+- 3.Reproducible Machine Learning - presentation, Kaggle https://www.rctatman.com/files/Tatman_2018_ReproducibleML.pdf
+- 4.The Machine Learning Reproducibility Crisis - article, by Google developer https://petewarden.com/2018/03/19/the-machine-learning-reproducibility-crisis/*
+
