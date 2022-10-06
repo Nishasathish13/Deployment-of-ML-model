@@ -49,8 +49,8 @@ Reproducibility is the ability to duplicate a Machine Learning model exactly suc
 
 ### References
 
-*- 1.Building and Deploying a Reproducible Machine Learning Pipeline - article https://trainindata.medium.com/how-to-build-and-deploy-a-reproducible-machine-learning-pipeline-20119c0ab941
-*- 2.Building a Reproducible Machine Learning Pipeline - long article https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf
-*- 3.Reproducible Machine Learning - presentation, Kaggle https://www.rctatman.com/files/Tatman_2018_ReproducibleML.pdf
-*- 4.The Machine Learning Reproducibility Crisis - article, by Google developer https://petewarden.com/2018/03/19/the-machine-learning-reproducibility-crisis/
+- 1.*Building and Deploying a Reproducible Machine Learning Pipeline - article https://trainindata.medium.com/how-to-build-and-deploy-a-reproducible-machine-learning-pipeline-20119c0ab941*
+- 2.*Building a Reproducible Machine Learning Pipeline - long article https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf*
+- 3.*Reproducible Machine Learning - presentation, Kaggle https://www.rctatman.com/files/Tatman_2018_ReproducibleML.pdf*
+- 4.*The Machine Learning Reproducibility Crisis - article, by Google developer https://petewarden.com/2018/03/19/the-machine-learning-reproducibility-crisis/*
 
