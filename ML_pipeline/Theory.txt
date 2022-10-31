@@ -1,0 +1,30 @@
+## Procedural programming
+
+code:
+Learn the parameters
+Make the transformation
+Make the prediction
+
+data:
+stores params
+
+Object Oriented Programming:
+
+In object oriented programming(OOPs), we write code in the form of 'objects' and these objects can store data and can also store instructions or procedures (code) to modify the data or to do something else like obtain predictions from the data.
+The data is stored in what is called the attributes or the properties of the object or the class.
+
+So the beauty of object oriented programming is that we have all together in one object both the functions to learn and modify the data and the parameters.
+So the data that is going to be used to make those transformations.
+
+Q. So how do we create a class using Python?
+
+1. We just need to use class and then give a name to the class that we want to create.
+
+2. And it's usually using capitals most classes take and in its method.
+
+3. And the init method contains the properties or the parameters that the class takes whenever it is initialized.
+
+4. The first parameter of the Init method is always self.
+
+5. And then it can take as many parameters as we want.
+
